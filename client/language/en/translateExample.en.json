@@ -1,9 +1,9 @@
 {
-    "type": "type...",
-    "username-lable": "username:",
-    "password-lable": "password:",
-    "login-btn": "login",
+    "type": "Type",
+    "username-lable": "Username",
+    "password-lable": "Password",
+    "login-btn": "Login",
 
-    "select-lang": "select language"
+    "select-lang": "Select language"
 
 }

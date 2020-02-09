@@ -1,0 +1,19 @@
+
+
+Server side implementation should be some mixin, something is taking action for ALL models
+
+-- Find Noa's code and we will improve it and set it up (/common/mixin/translate.js)
+/src/modules/translate/server/mixin/TranslateFields.js
+
+-- Eliminate all specific project's occurencies  (patient)
+
+-- make sure the code works as is (with the custom user field 'language')
+
+user.language == "english"
+
+CustomUser --
+    language: string
+
+
+
+
