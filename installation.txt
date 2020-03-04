@@ -1,0 +1,32 @@
+//installation-guide.txt
+//Installation guide
+
+//What should be steps one by one to install this feature into our projects..
+//We need to copy i18n.js to our project..
+
+STEP BY STEP:
+❏ npm install react-i18next i18next --save
+
+❏ create new folder in 'src' called 'translation'
+
+❏ copy the 'i18n.js' file from 'src/modules/translation/client/i18n.js' to 'src/translation'
+
+❏ inside the index.js import the file './translation/i18n.js' that you create before
+
+❏ inside the 'translation' folder create 'languages' folder
+
+❏ inside the 'languages' folder create 2 more folders - 'en' and 'heb'
+
+❏ inside each one of the folders (en, heb) create new file called 'translate.js'
+
+❏ in *your* i18n.js file replace those two lines - 
+        (import translationEN from './languages/en/translateExample.en.json';)
+        {import translationHEB from './languages/heb/translateExample.heb.json';}
+    to the right path for each one (./languages/heb/translate.json and ./languages/en/translate.json)
+
+❏ in your component add two lines:
+    top-    'import { withTranslation } from 'react-i18next';' 
+    bottom- 'export default withTranslation()(MyTranslatableComponent);'
+
+❏ 
+

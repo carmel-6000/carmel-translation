@@ -1,0 +1,8 @@
+[
+    {
+        "filePath": "/TranslationSample.js",
+        "componentName": "TranslationSample",
+        "route": "translation",
+        "title": "client translation with i18n example"
+    }
+]

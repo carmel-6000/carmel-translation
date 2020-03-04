@@ -14,6 +14,13 @@ user.language == "english"
 CustomUser --
     language: string
 
+---------------- C O N C L U S I O N S --------------------
 
+- when count/delete - no need to enter the after remote for translate because the data we recive is look like -{count: 1}
 
-
+model-config
+   {
+        "name": "translation",
+        "path": "../src/modules/translation",
+        "mixins": "server/mixins"
+      },
